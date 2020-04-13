@@ -1,0 +1,38 @@
+html {
+    background-color: rosybrown;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Girassol', cursive;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+.film-wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.film {
+    border: 2px solid teal;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+}

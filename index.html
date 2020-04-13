@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <title>Axios and Vue</title>
+</head>
+<body>
+    <h1>Studio Ghibli Films</h1>
+    <div id="app" class="film-wrapper">
+        <div v-for="film in films" v-bind:key="film.id" class="film">
+            <h2>{{film.title}}</h2>
+            <h3>{{film.director}}</h3>
+            <p>{{film.release_date}}</p>
+            <p>{{film.description}}</p>
+        </div>
+    </div>
+   <script src="node_modules/axios/dist/axios.js"></script>
+   <script src="node_modules/vue/dist/vue.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
